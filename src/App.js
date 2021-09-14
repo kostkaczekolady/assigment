@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import db from './data/db.json'
 
 function App() {
   return (
