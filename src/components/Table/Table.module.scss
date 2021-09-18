@@ -1,0 +1,55 @@
+@import '../../assets/palette';
+
+.header {
+  display: flex;
+  justify-content: center;
+  border: 1px solid $color-gray-200;
+  height: 50px;
+  align-items: center;
+  background-color: $color-gray-100;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid $color-gray-200;
+  border-left: 1px solid $color-gray-200;
+  border-right: 1px solid $color-gray-200;
+}
+
+.hederCell {
+  width: 200px;
+  min-width: 100px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $color-gray-100;
+
+  & + & {
+    border-left: 1px solid $color-gray-200;
+  }
+}
+
+.cell {
+  width: 200px;
+  min-width: 100px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  flex-wrap: wrap;
+
+  & + & {
+    border-left: 1px solid $color-gray-200;
+  }
+}
+
+.button {
+  color: $color-white;
+  background-color: $color-blue-300;
+  border-radius: 7px;
+  height: 40px;
+  padding: 0 20px;
+  border: none;
+}

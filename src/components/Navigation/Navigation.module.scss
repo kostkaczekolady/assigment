@@ -1,0 +1,18 @@
+@import '../../assets/palette';
+
+.wrapper {
+  display: flex;
+  background-color: $color-gray-300;
+  padding: 0 10px;
+  align-items: center;
+}
+
+.button {
+  color: $color-white;
+  background-color: $color-blue-300;
+  border-radius: 7px;
+  height: 40px;
+  padding: 0 20px;
+  border: none;
+  margin: 0 20px;
+}

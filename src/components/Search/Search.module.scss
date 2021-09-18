@@ -1,0 +1,19 @@
+@import '../../assets/palette';
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.input {
+  margin: 0 5px;
+}
+
+.clearButton {
+  color: $color-white;
+  background-color: $color-blue-300;
+  border-radius: 7px;
+  height: 30px;
+  border: none;
+}
